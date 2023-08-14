@@ -6,6 +6,10 @@ public class ChapTwo {
         new QuestionOne(varTable);
     }
 
+    /**
+     * 이중 for문과 이중 if문을 대체할 수 있는 방도는?
+     * 이중 for문은 Two Dimension이라서 이중 for문을 사용해야지만 이중 if문으로 너무 유효성이 아닌 조건을 처리할려고 한 것이 아닌지?
+     */
     class QuestionOne {
         private String[][] fixedTable = {
                 {"종\\크", "1 byte", "2 byte", "4 byte", "8byte"}
